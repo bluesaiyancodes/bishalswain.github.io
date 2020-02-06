@@ -1,0 +1,183 @@
+
+
+/*
+h1{
+ text-align: center;
+ color: black;
+ font-size: 40px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ font-family: Calibri;
+ background-color: white;
+
+/* position: relativbkit-animation-name: example;
+ -webkit-animation-duration: 6s;
+ animation-name: example;
+ animation-duration: 6s;
+
+}
+*/
+@keyframes example {
+    0%   {background-color:lightpink;}
+    25%  {background-color:lightblue;}
+    50%  {background-color: palevioletred;}
+    75%  {background-color: darksalmon;}
+    100% {background-color:white;}
+}
+
+.topnav{
+    padding-top: 40px;
+    overflow: hidden;
+    font-size: 30px;
+    font-family: Arial;
+
+    text-align: center;
+    width: 100%;
+
+}
+.topnav ul{
+    display:inline-block;
+}
+.topnav li{
+    float: left;
+}
+
+.topnav li+li{
+    margin-left:20px;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: white;
+    border-radius:10px;
+    position: relative;
+
+}
+
+
+
+.topnav a:hover {
+    background-color: lightpink;
+    color: black;
+    border-radius:10px;
+    position: relative;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+
+.topnav a:active {
+    background-color: lightgray;
+    color: white;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+
+}
+
+.move{
+    background:url("../images/bck_img.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+
+.dispblock{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    overflow: hidden;
+    background-color: white;
+    height: auto;
+    width: auto;
+    margin-block-start: 20%;
+    margin-block-end: 10%;
+    margin-left: 5%;
+    margin-right:5%;
+    border-radius:10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-left: 50px;
+    float: left;
+  }
+
+.card h1{
+    font-size: 30px;
+}
+
+.card p{
+    line-height: 1.5;
+}
+.card a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+
+.card a:hover{
+    opacity: 0.7;
+}
+
+.card_title{
+    color: grey;
+    font-size: 18px;
+  }
+
+.text_card{
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-right: 2%;
+
+}
+
+.text_card h1{
+    color: grey;
+    font-size: 30px;
+    line-height: 10px;
+}
+
+.text_card h1.big{
+    line-height: 40px;
+}
+
+.text_card h2{
+    color: black;
+    font-size: 20px;
+    word-wrap: none;
+    line-height: 20px;
+}
+
+.text_card li.head_bold{
+    font-weight: bold;
+}
+
+.text_card li.norm{
+    font-size: 20px;
+}
+
+.text_card li.faded{
+    color: grey;
+}
+
