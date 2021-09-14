@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/home/static/css/main.82458425.chunk.css",
+    "main.js": "/home/static/js/main.98e9a0c4.chunk.js",
+    "main.js.map": "/home/static/js/main.98e9a0c4.chunk.js.map",
+    "runtime-main.js": "/home/static/js/runtime-main.9fca115f.js",
+    "runtime-main.js.map": "/home/static/js/runtime-main.9fca115f.js.map",
+    "static/js/2.7710c963.chunk.js": "/home/static/js/2.7710c963.chunk.js",
+    "static/js/2.7710c963.chunk.js.map": "/home/static/js/2.7710c963.chunk.js.map",
+    "index.html": "/home/index.html",
+    "precache-manifest.b8aa8a9309a71e07c3544c1c2610b312.js": "/home/precache-manifest.b8aa8a9309a71e07c3544c1c2610b312.js",
+    "service-worker.js": "/home/service-worker.js",
+    "static/css/main.82458425.chunk.css.map": "/home/static/css/main.82458425.chunk.css.map",
+    "static/js/2.7710c963.chunk.js.LICENSE.txt": "/home/static/js/2.7710c963.chunk.js.LICENSE.txt",
+    "static/media/bishalmain.jpg": "/home/static/media/bishalmain.2d9eccae.jpg",
+    "static/media/iisc.png": "/home/static/media/iisc.915a22eb.png",
+    "static/media/resume.pdf": "/home/static/media/resume.dcbd3bf7.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9fca115f.js",
+    "static/js/2.7710c963.chunk.js",
+    "static/css/main.82458425.chunk.css",
+    "static/js/main.98e9a0c4.chunk.js"
+  ]
+}
